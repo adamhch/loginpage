@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cv.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <img src="th.jpg" alt="">
+    <ul>
+     <a href="#login"><li>Accueil</li></a>
+      <a href="#login"><li>Login</li></a>
+    </ul>
+  </nav>
+    <div>
+      <div class="login-wrapper">
+        <form action="" class="form">
+          <img src="ava.png" alt="">
+          <h2>Login</h2>
+          <div class="input-group">
+            <input type="text" name="loginUser" id="loginUser" required>
+            <label for="loginUser">User name</label>
+          </div>
+            <div class="input-group">
+              <input type="password" name="loginPassword" id="loginPassword" required>
+              <label for="loginPassword">Password</label>
+          </div>
+          <input  type="submit" value="Login" class="submit-btn">
+          <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
+        </form>
+
+        <div id="forgot-pw">
+          <form action="" class="form">
+            <a href="" class="close">&times;</a>
+            <h2>Reset Password</h2>
+            <div class="input-group">
+              <input type="email" name="email" id="email" required>
+              <label for="email">email</label>
+              <input type="submit" value="submit" class="submit-btn">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
